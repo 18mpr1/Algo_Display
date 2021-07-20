@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+#start{
+  font-size: 45px;
+  background-color: forestgreen;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+#start-area{
+  padding: 30px;
+
+}

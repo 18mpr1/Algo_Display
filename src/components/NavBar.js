@@ -3,7 +3,8 @@ import CustomBtn from './CustomBtn'
 import logo from '../logo.svg'
 import logoMobile from '../logoMobile.svg'
 import {Toolbar, Typography} from '@material-ui/core'
-import {makeStyles} from "@material-ui/core/styles"; 
+import {makeStyles} from "@material-ui/core/styles";
+import { Menu } from '@material-ui/core';
 
 const styles = makeStyles({
     bar:{
@@ -42,17 +43,22 @@ function NavBar() {
     return (
             <Toolbar position="sticky" color="rgba(0, 0, 0, 0.87)" className={classes.bar}>   
                 <img src={logo} className={classes.logo}/> 
-                <img src={logoMobile} className={classes.logoMobile}/> 
+                <img src={logoMobile} className={classes.logoMobile}/>
+                <Typography variant="h6" className={classes.menuItem}>
+                    Home
+                </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
                    About
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    See the Algorithms
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
                     Contact
                 </Typography>
-                <CustomBtn txt="Trial Our Product"/>
+                <Typography variant="h6" className={classes.menuItem}>
+                    Learn
+                </Typography>
+
+
+                <CustomBtn txt="See the source code"/>
             </Toolbar>
     )
 }
