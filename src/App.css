@@ -37,15 +37,49 @@
   }
 }
 
-#start{
-  font-size: 45px;
-  background-color: forestgreen;
+
+#start {
+  border-radius: 4px;
+  background-color: seagreen;
   border: none;
-  padding: 10px;
-  color: white;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 28px;
+  padding: 20px;
+  width: 35%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
+
+#start span {
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  transition: 0.5s;
+  font-size: 30px;
+  width: 40%;
+}
+
+#start span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#start:hover span {
+  padding-right: 30px;
+}
+
+#start:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 
 #start-area{
   padding: 30px;
-
 }

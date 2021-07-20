@@ -76,7 +76,7 @@ function App() {
         </div>
         <div id="start-area">
           <Button size="large" className={classes.margin} id="start">
-            See the Algorithms
+            <b>See the Algorithms</b>
           </Button>
         </div>
 
