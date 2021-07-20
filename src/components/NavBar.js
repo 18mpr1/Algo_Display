@@ -47,16 +47,10 @@ function NavBar() {
                    About
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Blog
+                    See the Algorithms
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Careers
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                    Demos 
-                </Typography>
-                <Typography variant="h6" className={classes.menuItem}>
-                    Contact Us 
+                    Contact
                 </Typography>
                 <CustomBtn txt="Trial Our Product"/>
             </Toolbar>
