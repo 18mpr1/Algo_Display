@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import './App.css';
 import { Button } from '@material-ui/core';
 
+
 //changes to imports 
 import SecurityIcon from '@material-ui/icons/Security';
 import EventNoteIcon from '@material-ui/icons/EventNote';
@@ -74,11 +75,8 @@ function App() {
             This website will show you how to think of sorting algorithms visually
           </Typography>
         </div>
-        <div id="start-area">
-          <Button size="large" className={classes.margin} id="start">
-            <b>See the Algorithms</b>
-          </Button>
-        </div>
+
+
 
         <div className={`${classes.grid} ${classes.bigSpace}`}>
           <Grid icon={<SecurityIcon style={{fill: "#4360A6", height:"125", width:"125"}}/>}  title="Merge Sort" btnTitle="Show me More" />

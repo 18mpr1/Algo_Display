@@ -6,6 +6,9 @@ import {Toolbar, Typography} from '@material-ui/core'
 import {makeStyles} from "@material-ui/core/styles";
 import { Menu } from '@material-ui/core';
 
+
+// https://morioh.com/p/22c468de485e
+
 const styles = makeStyles({
     bar:{
         paddingTop: "1.15rem",
@@ -48,7 +51,7 @@ function NavBar() {
                     Home
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                   About
+                    About
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
                     Contact
